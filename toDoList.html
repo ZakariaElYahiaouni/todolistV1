@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-image">
+            <div class="main-title">
+                <h1>Zek!</h1>
+            </div>
+        </div>
+        <div class="container-linkList">
+            <div class="internal-container">
+                <ul class="unordered-list">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li style="color: blue !important; font-weight: 500 !important;">Donate</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-website">
+        <div class="main-title-website">
+            <h2 style="text-align: center;">To-do-list <span style="font-size: 15px !important">V 1.0</span></h2>
+            <br>
+            <p style="text-align: center">This a static website and there isn't any database behind for storing your
+                data. Don't close the page! otherwise you will lose your edits. <span
+                    style="color: red; font: bold; ">Enjoy</span>:) !
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="container-todolist">
+            <label for="">Enter your duty:</label>
+            <br>
+            <div class="container-input-bar">
+
+
+                <input id="input-bar" name="input-bar" type="text">
+                <button id="input-button" onclick="createElement_()">Enter</button>
+            </div>
+            <br>
+            <br>
+            <div class="myList">
+                <div class="internal-myList">
+                    <h3 style="text-align: center;">My List</h3>
+                </div>
+                <div id="list-elements">
+                    <br>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="todolist.js"></script>
+</body>
+
+</html>
